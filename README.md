@@ -93,6 +93,34 @@ Must read research papers and links on quantum compiler.
 
 
 ## Software
+[awesome-quantum-software](https://github.com/qosf/awesome-quantum-software?tab=readme-ov-file#quantum-compilers) - This section is based on this GitHub Repo.
+
+
+C++
+ + QCOR - C++ language extension and associated compiler implementation for hybrid quantum-classical programming.
+ + ScaffCC - Compilation, analysis and optimization framework for the Scaffold quantum programming language.
+ + tweedledum - C++17 library for analysis, compilation/synthesis, and optimization of quantum circuits.
+
+Mathematica
+ + UniversalQCompiler - Synthesis of isometries (including unitaries and state preparation), channels and POVMs.
+
+Julia
+ + QuantumCircuitOpt.jl - Julia package for provably optimal decompositions and compilations of quantum circuits
+
+Python
+ + Arline Benchmarks - Automated benchmarking platform for quantum compilers, quantum hardware and quantum algorithms.
+ + BQSKit - Berkeley Quantum Synthesis Toolkit is an optimizing quantum compiler and related tool-set.
+ + Mitiq - Cross-platform, error-mitigating quantum compiler from Unitary Fund.
+ + NchooseK - Constraint-programming system that compiles to both circuit-model quantum computers and quantum annealers.
+ + PyZX - Python library for quantum circuit rewriting and optimisation using the ZX-calculus.
+ + QEDA - Quantum electronic design automation software for optical circuits using QASM.
+ + QGL2 Compiler - Language compiler for imperative Quantum Gate Language (QGL).
+ + Qiskit Terra - Python library for quantum circuit rewriting and optimization (supported by IBM).
+ + Qubiter - Quantum compiler with Python wrapper for LAPACK's CS Decomposition to build a binary tree of matrices.
+ + SAT Circuits Engine - Qiskit-based high-level quantum circuits synthesis engine for n-SAT problems.
+
+Common Lisp
+ + quilc - Rigetti's optimizing Quil compiler.
 
 
 ## BooKs
