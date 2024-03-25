@@ -8,7 +8,7 @@ Must read research papers and links on quantum compiler.
 
 ## Contents
 ___
-***
+*
 ___
 + paper
   + Survey
@@ -29,7 +29,7 @@ ___
 
 Papers
 ___
-***
+*
 ___
 **Survey**
  [Quantum Compiling] <https://arxiv.org/abs/2112.00187>
@@ -93,7 +93,7 @@ ___
 
 Software
 ___
-***
+*
 ___
 
 
@@ -109,14 +109,14 @@ ___
 
 Benchmarks and Datasets
 ___
-***
+*
 ___
 
 
 
 Conference
 ___
-***
+*
 ___
 
 
