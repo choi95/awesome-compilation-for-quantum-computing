@@ -1,5 +1,6 @@
 # awesome-quantum-compilers
 Must read research papers and useful links on quantum compiler.
+This repo was created voluntarily for me and the research community.
 
 
 **This repo is still in the process of being edited**
