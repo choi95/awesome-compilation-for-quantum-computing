@@ -1,4 +1,4 @@
-# awesome-quantum-compilers
+# Awesome-quantum-compilers
 Must read research papers and useful links on quantum compiler.
 This repo was created voluntarily for me and the research community.
 
@@ -18,6 +18,7 @@ This repo was created voluntarily for me and the research community.
   + Quantum ISA
   + Qubit mapping
   + Quantum Compiler Framework
+  + Distributed Quantum Computing
 + Books
 + Software
 + Benchmarks and Datasets
