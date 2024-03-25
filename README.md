@@ -7,7 +7,6 @@ Must read research papers and links on quantum compiler.
 
 
 ## Contents
-___
 
 + paper
   + Survey
@@ -26,11 +25,11 @@ ___
 
 
 
-Papers
-___
+## Papers
 
 **Survey**
 + [Quantum Compiling](https://arxiv.org/abs/2112.00187) - Marco Maronese, Lorenzo Moro, Lorenzo Rocutto, Enrico Prati, 2021
+
 
 
 **Quantum Intermediate Representation**
@@ -93,23 +92,22 @@ ___
 
 
 
-Software
-___
+## Software
 
-BooKs
-___
+
+## BooKs
+
 + [Quantum Computer Systems Research for Noisy Intermediate-Scale Quantum Computers (Synthesis Lectures on Computer Architecture)-Morgan & Claypool Publishers (2020)](https://www.amazon.com/Quantum-Computer-Systems-Intermediate-Scale-Architecture/dp/168173866X/ref=sr_1_1?crid=2K59KWTC2A6IG&dib=eyJ2IjoiMSJ9.FgRSqqg5BPKkIMPcNZN4SDxi0rLadqKNi_gKEwfnfdbx3NVbf-QqRugr0cm0gkqz.IP3MXubP83FTCTx1iDY4mGPq-3PRGX21K_rEV4QrWHU&dib_tag=se&keywords=Quantum+Computer+Systems+Research+for+Noisy+Intermediate-Scale+Quantum+Computers&qid=1711388706&s=books&sprefix=quantum+computer+systems+research+for+noisy+intermediate-scale+quantum+computers%2Cstripbooks-intl-ship%2C337&sr=1-1)
 
 
 
-Benchmarks and Datasets
-___
+## Benchmarks and Datasets
 
 
 
-Conference
+## Conference
 CGO, CC, PACT, HPCA, ASPLOS
 
 
-Journal
+## Journal
 
