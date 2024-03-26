@@ -11,13 +11,13 @@ This repo was created voluntarily for me and the research community.
 
 + paper
   + Survey
+  + Unified Compilation Framework for Quantum Control
   + Quantum Intermediate Representation
   + Program Representation
   + Instruction scheduling
   + Quantum Program Optimization
   + Quantum ISA
-  + Qubit mapping
-  + Quantum Compiler Framework
+  + Qubit mapping, Qubit allocation
   + Distributed Quantum Computing
 + Books
 + Software
@@ -33,24 +33,47 @@ This repo was created voluntarily for me and the research community.
 + [Quantum Compiling](https://arxiv.org/abs/2112.00187) - Marco Maronese, Lorenzo Moro, Lorenzo Rocutto, Enrico Prati, 2021
 
 
+</br></br>
+
+**Unified Compilation Framework for Quantum Control**
+ + **Compiler for Neutral Atom Arrays**
+   + [Compiling quantum circuits for dynamically field-programmable neutral atoms array processors](https://arxiv.org/pdf/2306.03487.pdf) - D. B. Tan et al., 2024
+   + [FPQA-C : A Compilation Framework for Field Programmable Qubit Array](https://arxiv.org/abs/2311.15123) - Hanrui Wang, Pengyu Liu, Bochen Tan, Yilian Liu, Jiaqi Gu, David Z. Pan, Jason Cong, Umut Acar, and Song Han, ISCA, 2024
+   + [Qubit mapping for reconfigurable atom arrays](https://dl.acm.org/doi/abs/10.1145/3508352.3549331) - B. Tan et al, ICCAD, 2022
+   + [Quantum optimization of maximum independent set using Rydberg atom arrays](https://arxiv.org/abs/2202.09372) - S.Ebadi et al., Science, 2022
+   + [Geyser: a compilation framework for quantum computing with neutral atoms](https://dl.acm.org/doi/abs/10.1145/3470496.3527428) - T. Patel et al., ISCA, 2022
+   + [Exploiting Long-Distance Interactions and Tolerating Atom Loss in Neutral Atom Quantum Architectures](https://arxiv.org/pdf/2111.06469.pdf) -  Jonathan M. Baker, et al. ISCA, 2021
+   + [Software-hardwareco-optimization for computational chemistry on superconducting quantum processors] - GushuLi, YunongShi, and AliJavadi-Abhari, ISCA, 2021
+   + [Optimal mapping for near-term quantum architectures based on Rydberg atoms](https://arxiv.org/abs/2109.04179) - S.Brandhofer et al., ICCAD, 2021
+
+ + **Compiler for Ion Traps**
+   + [Quantum Circuit Compiler for a Shuttling-Based Trapped Ion Quantum Computer](https://arxiv.org/pdf/2207.01964v2.pdf) - Fabian Kreppel et al., 2022
+   + [TILT: Achieving Higher Fidelity on a Trapped-Ion Linear-Tape Quantum Computing Architecture](https://arxiv.org/pdf/2010.15876v3.pdf) - Xin-Chuan Wu, Dripto M Debroy, Yongshan Ding, Jonathan M Baker, Yuri Alexeev, Kenneth R Brown, and Frederic T Chong, HPCA, 2020
+   + [Architecting Noisy Intermediate-Scale Trapped Ion Quantum Computers](https://arxiv.org/abs/2004.04706) - Prakash Murali, Dripto M. Debroy, Kenneth R. Brown, and Margaret Martonosi, ISCA, 2020
 
 
+ + **Superconducting Qubits in Circuit QED**
+   + [Systematic Cross talk Mitigation for Superconducting Qubits via Frequency-Aware Compilation](https://arxiv.org/abs/2008.09503), Yongshan Ding, Pranav Gokhale, Sophia Fuhui Lin, Richard Rines, Thomas Propson, Frederic T. Chong, MICRO, 2020
+
+
+
+</br></br>
 **Quantum Intermediate Representation**
 + [InQuIR: Intermediate Representation for Interconnected Quantum Computers](https://arxiv.org/abs/2302.00267) - Shin Nishio, Ryo Wakizaka, 2023
-+ [QSSA: an SSA-based IR for Quantum computing](https://arxiv.org/abs/2109.02409) - Anurudh Peduri, Siddharth Bhat, 2021
++ [QSSA: an SSA-based IR for Quantum computing](https://arxiv.org/abs/2109.02409) - Anurudh Peduri, Siddharth Bhat, CC, 2022
 + [Enabling Retargetable Optimizing Compilers for Quantum Accelerators via a Multi-Level Intermediate Representation](https://arxiv.org/abs/2109.00506) - Thien Nguyen, Alexander McCaskey, 2021
-+ [A MLIR Dialect for Quantum Assembly Languages](https://arxiv.org/abs/2101.11365) - Alexander McCaskey, Thien Nguyen, 2021
-+ [ScaffCC: A Framework for Compilation and Analysis of Quantum Computing Programs](https://arxiv.org/abs/1507.01902) - Ali JavadiAbhari, Shruti Patil, Daniel Kudrow, Jeff Heckey, Alexey Lvov, Frederic T. Chong, Margaret Martonosi, Parallel Comput. 2015
++ [A MLIR Dialect for Quantum Assembly Languages](https://arxiv.org/abs/2101.11365) - Alexander McCaskey, Thien Nguyen, QCE, 2021
++ [ScaffCC: A Framework for Compilation and Analysis of Quantum Computing Programs](https://arxiv.org/abs/1507.01902) - Ali JavadiAbhari, Shruti Patil, Daniel Kudrow, Jeff Heckey, Alexey Lvov, Frederic T. Chong, Margaret Martonosi, Parallel Comput, CF, 2014
 + [Introducing Quantum Intermediate Representation (QIR)](https://devblogs.microsoft.com/qsharp/introducing-quantum-intermediate-representation-qir/)
 
 
-
+</br></br>
 
 **Program Representation**
 + [QIRO: A Static Single Assignment-based Quantum Program Representation for Optimization](https://dl.acm.org/doi/10.1145/3491247) - David Ittah, Thomas Häner, Vadym Kliuchnikov, Torsten Hoefler, ACM Transactions on Quantum Computing, 2021
 
 
-
+</br></br>
 
 **Instruction scheduling**
 + [DISQ: Dynamic Iteration Skipping for Variational Quantum Algorithms](https://arxiv.org/abs/2308.06634) - Junyao Zhang, Hanrui Wang, Gokul Subramanian Ravi, Frederic T. Chong, Song Han, Frank Mueller, Yiran Chen, 2023
@@ -62,7 +85,7 @@ This repo was created voluntarily for me and the research community.
 + [TILT: Achieving Higher Fidelity on a Trapped-Ion Linear-Tape Quantum Computing Architecture](https://arxiv.org/abs/2010.15876) - Xin-Chuan Wu, Dripto M. Debroy, Yongshan Ding, Jonathan M. Baker, Yuri Alexeev, Kenneth R. Brown, Frederic T. Chong, 2020
 
 
-
+</br></br>
 
 **Quantum Program Optimization**
 + [SuperstaQ: Deep Optimization of Quantum Program](https://arxiv.org/abs/2309.05157) - Campbell, Colin, et al. ,IEEE QCE, 2023
@@ -78,14 +101,14 @@ This repo was created voluntarily for me and the research community.
 + [Circuit for Shor’s Algorithm Using 2n+3 Qubits](https://arxiv.org/abs/quant-ph/0205095) - Stephane Beauregard, Quantum Information and Computation, Quantum Information and Computation, 2002
 
 
-
+</br></br>
 
 **Quantum ISA**
 + [Open quantum assembly language](https://arxiv.org/abs/1707.03429) - Andrew W. Cross, Lev S. Bishop, John A. Smolin, Jay M. Gambetta, 2017
 + [A Practical Quantum Instruction Set Architecture](https://arxiv.org/abs/1608.03355) - Robert S. Smith, Michael J. Curtis, William J. Zeng, 2017
 
 
-
+</br></br>
 
 **Qubit mapping,** **Qubit allocation**
 + [Qubit Mapping Toward Quantum Advantage](https://arxiv.org/pdf/2210.01306v1.pdf) - Chin-Yi Cheng et al., 2022
@@ -96,20 +119,14 @@ This repo was created voluntarily for me and the research community.
 + [Noise-adaptive compiler mappings for noisy intermediate-scale quantum computers.](https://arxiv.org/abs/1901.11054) - Prakash Murali, Jonathan M. Baker, Ali Javadi Abhari, Frederic T. Chong, Margaret Martonosi, ASPLOS, 2019 
 
 
-
-
-**Quantum Compiler Framework**
-+ [Bosehedral: Compiler Optimization for Bosonic Quantum Computing](https://arxiv.org/pdf/2402.02279.pdf) - Junyu Zhou et al.  , 2024
-
-
-
+</br></br>
 
 **Distributed Quantum Computing**
 + [A Modular Quantum Compilation Framework for Distributed Quantum Computing](https://arxiv.org/abs/2305.02969) - Davide Ferrari, Stefano Carretta, Michele Amoretti
 IEEE Transactions on Quantum Engineering, 2023
 
 
-
+</br></br>
 
 ## Software
 + This section is based on this GitHub Repo. [awesome-quantum-software](https://github.com/qosf/awesome-quantum-software?tab=readme-ov-file#quantum-compilers) 
@@ -144,7 +161,7 @@ Common Lisp
 
 
 
-## BooKs
+## Books
 
 + [Quantum Computer Systems Research for Noisy Intermediate-Scale Quantum Computers (Synthesis Lectures on Computer Architecture)-Morgan & Claypool Publishers (2020)](https://www.amazon.com/Quantum-Computer-Systems-Intermediate-Scale-Architecture/dp/168173866X/ref=sr_1_1?crid=2K59KWTC2A6IG&dib=eyJ2IjoiMSJ9.FgRSqqg5BPKkIMPcNZN4SDxi0rLadqKNi_gKEwfnfdbx3NVbf-QqRugr0cm0gkqz.IP3MXubP83FTCTx1iDY4mGPq-3PRGX21K_rEV4QrWHU&dib_tag=se&keywords=Quantum+Computer+Systems+Research+for+Noisy+Intermediate-Scale+Quantum+Computers&qid=1711388706&s=books&sprefix=quantum+computer+systems+research+for+noisy+intermediate-scale+quantum+computers%2Cstripbooks-intl-ship%2C337&sr=1-1)
 
@@ -152,18 +169,19 @@ Common Lisp
 
 
 ## Conference
-HPCA, ASPLOS, ISCA, MICRO
-
+HPCA, ASPLOS, ISCA, MICRO, ICCAD, DAC, CC </br>
+QCE(Quantum Computing and Engineering) </br>
+CF(Computing Frontiers)
 
 ## Journal
-IEEE Transactions on Quantum Engineering
-Quantum Information & Computation
-Quantum Science and Technology 
-ACM on Programming Languages
-Journal of Mathematical Physic
-Quantum Information and Computation
-IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
-ACM Transactions on Quantum Computing
+ + IEEE Transactions on Quantum Engineering </br>
+ + Quantum Information & Computation </br>
+ + Quantum Science and Technology </br>
+ + ACM on Programming Languages </br>
+ + Journal of Mathematical Physic </br>
+ + Quantum Information and Computation </br>
+ + IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems </br>
+ + ACM Transactions on Quantum Computing </br>
 
 
 
