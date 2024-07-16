@@ -1,4 +1,4 @@
-# Awesome-quantum-compiler-system
+# Awesome-quantum-compilers-and-systems
 A comprehensive system for compiling quantum programs
 
 This repository focuses on the research and study of quantum compiler systems. It aims to explore the translation of high-level quantum programming languages into low-level instructions executable on quantum hardware. The project includes investigations into optimization techniques, error correction mechanisms, and a detailed analysis of quantum algorithms
