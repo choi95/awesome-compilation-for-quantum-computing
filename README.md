@@ -1,10 +1,7 @@
-# Awesome-quantum-compilers
-Must read research papers and useful links on quantum compiler.
-This repo was created voluntarily for me and the research community.
+# Awesome-quantum-compiler-system
+A comprehensive system for compiling quantum programs
 
-
-**This repo is still in the process of being edited**
-(In the future, I plan to add a GitHub repo corresponding to each paper)
+This repository focuses on the research and study of quantum compiler systems. It aims to explore the translation of high-level quantum programming languages into low-level instructions executable on quantum hardware. The project includes investigations into optimization techniques, error correction mechanisms, and a detailed analysis of quantum algorithms
 
 
 ## Contents
@@ -19,8 +16,10 @@ This repo was created voluntarily for me and the research community.
   + Quantum ISA
   + Qubit mapping, Qubit allocation
   + Distributed Quantum Computing
+  + Quantum Operating System
+  + Quantum Virtual Machine
 + Books
-+ Software
++ Related-Repo & Post
 + Benchmarks and Datasets
 + Conferences
 + Journals
@@ -78,11 +77,6 @@ This repo was created voluntarily for me and the research community.
 
 **Program Representation**
 + [QIRO: A Static Single Assignment-based Quantum Program Representation for Optimization](https://dl.acm.org/doi/10.1145/3491247) - David Ittah, Thomas Häner, Vadym Kliuchnikov, Torsten Hoefler, ACM Transactions on Quantum Computing, 2021
-
-
-</br></br>
-**Quanum OS**
-+ [QOS: A Quantum Operating System](https://arxiv.org/abs/2406.19120) - Emmanouil Giortamis, Francisco Romão, Nathaniel Tornow, Pramod Bhatotia, 2024
 
 
 </br></br>
@@ -148,7 +142,17 @@ IEEE Transactions on Quantum Engineering, 2023
 + [Optimized compiler for distributed quantum computing](https://arxiv.org/abs/2112.14139) - D. Cuomo, ACM Transactions on Quantum Computing, 2023
 + [Divide and Conquer for Combinatorial Optimization and Distributed Quantum Computation](https://arxiv.org/abs/2107.07532) - Teague Tomesh, Zain H. Saleem, Michael A. Perlin, Pranav Gokhale, Martin Suchara, Margaret Martonosi, QCE, 2023
 + [Compiler design for distributed quantum computing](https://arxiv.org/abs/2404.17077) - D. Ferrari, IEEE Transactions on Quantum Engineering, 2021
+
+
 </br></br>
+**Quanum Operating System**
++ [QOS: A Quantum Operating System](https://arxiv.org/abs/2406.19120) - Emmanouil Giortamis, Francisco Romão, Nathaniel Tornow, Pramod Bhatotia, 2024
+
+
+</br></br>
+
+**Quantum Virtual Machine**
++ [A Universal Quantum Computing Virtual Machine](https://arxiv.org/pdf/1806.06511) - Qian-Tan Hon et al., 2018
 
 
 ## Related-repos & pages
