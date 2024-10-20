@@ -9,11 +9,13 @@ This repository focuses on the research and study of quantum compiler systems. I
   + Survey
   + Unified Compilation Framework for Quantum Control
   + Quantum Intermediate Representation
-  + Program Representation
-  + Instruction scheduling
+  + Quantum Program Representation
+  + Quantum Circuit Optimization
+  + Quantum Circuit Scheduling
+  + Quantum Instruction Scheduling
   + Quantum Program Optimization
   + Quantum ISA
-  + Qubit mapping, Qubit allocation
+  + Qubit Mapping
   + Distributed Quantum Computing
   + Quantum Operating System
   + Quantum Virtual Machine
@@ -63,6 +65,7 @@ This repository focuses on the research and study of quantum compiler systems. I
 
 </br></br>
 **Quantum Intermediate Representation**
++ [A Cross-Platform Execution Engine for the Quantum Intermediate Representation](https://arxiv.org/pdf/2404.14299) - Elaine Wong et al., 2024
 + [InQuIR: Intermediate Representation for Interconnected Quantum Computers](https://arxiv.org/abs/2302.00267) - Shin Nishio, Ryo Wakizaka, 2023
 + [QSSA: an SSA-based IR for Quantum computing](https://arxiv.org/abs/2109.02409) - Anurudh Peduri, Siddharth Bhat, CC, 2022
 + [Quantum circuit transformations with a multi-level intermediate representation compiler](https://arxiv.org/abs/2112.10677) - T. Nguyen et al., 2021
@@ -74,18 +77,31 @@ This repository focuses on the research and study of quantum compiler systems. I
 
 </br></br>
 
-**Program Representation**
+**Quantum Program Representation**
 + [QIRO: A Static Single Assignment-based Quantum Program Representation for Optimization](https://dl.acm.org/doi/10.1145/3491247) - David Ittah, Thomas Häner, Vadym Kliuchnikov, Torsten Hoefler, ACM Transactions on Quantum Computing, 2021
 
 
 </br></br>
 **Quantum Circuit Analysis**
-+ [QuCT: A Framework for Analyzing Quantum Circuit by Extracting Contextual and Topological Features](https://dl.acm.org/doi/10.1145/3613424.3614274) - Siwei Tan,. MICRO, 2023
-+ [Quantum Vulnerability Analysis to Guide Robust Quantum Computing System Design](https://arxiv.org/pdf/2207.14446) - Fang Qi ,2023
++ [QuCT: A Framework for Analyzing Quantum Circuit by Extracting Contextual and Topological Features](https://dl.acm.org/doi/10.1145/3613424.3614274) - Siwei Tan et al., MICRO, 2023
++ [Quantum Vulnerability Analysis to Guide Robust Quantum Computing System Design](https://arxiv.org/pdf/2207.14446) - Fang Qi et al., 2023
+
   
 </br></br>
+**Quantum Circuit Optimization** 
++ [Quarl: A Learning-Based Quantum Circuit Optimizer](https://dl.acm.org/doi/abs/10.1145/3649831) - Zikun Li et al., OOPSLA, 2024
++ [Machine Learning Optimization of Quantum Circuit Layouts](https://dl.acm.org/doi/full/10.1145/3565271) - Alexandru Pale et al., ACM Transactions on Quantum Computing, 2023
++ [Synthesizing Quantum-Circuit Optimizers](https://dl.acm.org/doi/abs/10.1145/3591254) - Amanda Xu et al., PLDI, 2023 
++ [Monte Carlo Graph Search for Quantum Circuit Optimization](https://arxiv.org/abs/2307.07353) - Bodo Rosenhahn, Tobias J. Osborne, 2023
 
-**Instruction Scheduling**
+
+**Quantum Circuit Scheduling**
++ [Quantum circuit scheduler for QPUs usage optimization](https://arxiv.org/html/2404.01055v1) - Javier Romero-Alvarez et al. 2024
++ [Scheduling of Operations in Quantum Compiler](https://arxiv.org/pdf/2011.04936) - Toshinari Itoko, Takashi Imamichi, QCE, 2020
++ [Two-step approach to scheduling quantum circuits](https://arxiv.org/abs/1708.00023) - Gian Giacomo Guerreschi, Jongsoo Park, Quantum Sci journal, 2017
+
+  
+**Quantum Instruction Scheduling**
 + [SCIM MILQ: An HPC Quantum Scheduler](https://arxiv.org/abs/2404.03512) - Philipp Seitz, Manuel Geiger, Christian Ufrecht, Axel Plinge, Christopher Mutschler, Daniel D. Scherer, Christian B. Mendl, Quantum Week, 2024
 + [DISQ: Dynamic Iteration Skipping for Variational Quantum Algorithms](https://arxiv.org/abs/2308.06634) - Junyao Zhang, Hanrui Wang, Gokul Subramanian Ravi, Frederic T. Chong, Song Han, Frank Mueller, Yiran Chen, QCE, 2023
 + [Let Each Quantum Bit Choose Its Basis Gates](https://arxiv.org/abs/2208.13380) - Sophia Fuhui Lin, Sara Sussman, Casey Duckering, Pranav S. Mundada, Jonathan M. Baker, Rohan S. Kumar, Andrew A. Houck, Frederic T. Chong, MICRO, 2022
@@ -123,7 +139,7 @@ Quantum Science and Technology, 2016
 
 </br></br>
 
-**Qubit mapping,** **Qubit allocation**
+**Qubit Mapping**
 + [Qubit Mapping Toward Quantum Advantage](https://arxiv.org/pdf/2210.01306v1.pdf) - Chin-Yi Cheng et al., 2022
 + [Qubit Mapping and Routing via MaxSAT](https://arxiv.org/abs/2208.13679v1) - Abtin Molavi, Amanda Xu, Martin Diges, Lauren Pick, Swamit Tannu, Aws Albarghouthi, MICRO, 2022
 + [Paulihedral: a generalized block-wise compiler optimization framework for Quantum simulation kernels](https://arxiv.org/abs/1901.11054) - Prakash Murali, Jonathan M. Baker, Ali Javadi Abhari, Frederic T. Chong, Margaret Martonosi, ASPLOS, 19
@@ -134,7 +150,6 @@ Quantum Science and Technology, 2016
 
 
 </br></br>
-
 **Distributed Quantum Computing**
 + [A Modular Quantum Compilation Framework for Distributed Quantum Computing](https://arxiv.org/abs/2305.02969) - Davide Ferrari, Stefano Carretta, Michele Amoretti
 IEEE Transactions on Quantum Engineering, 2023
@@ -154,7 +169,7 @@ IEEE Transactions on Quantum Engineering, 2023
 + [A Universal Quantum Computing Virtual Machine](https://arxiv.org/pdf/1806.06511) - Qian-Tan Hon et al., 2018
 
 
-## Related-repos & pages
+## Related-repos
 + [Awesome-quantum-computing](https://github.com/desireevl/awesome-quantum-computing)
 + [Awesome-Quantum-Computation](https://github.com/hsavit1/Awesome-Quantum-Computation)
 + [Awesome-quantum-software](https://github.com/qosf/awesome-quantum-software?tab=readme-ov-file#quantum-compilers)
@@ -162,15 +177,18 @@ IEEE Transactions on Quantum Engineering, 2023
 + [Awesome-post-quantum](https://github.com/veorq/awesome-post-quantum)
 + [Awesome-he](https://github.com/jonaschn/awesome-he)
 
-## Books
 
+## Books
 + [Quantum Computer Systems Research for Noisy Intermediate-Scale Quantum Computers (Synthesis Lectures on Computer Architecture)-Morgan & Claypool Publishers (2020)](https://www.amazon.com/Quantum-Computer-Systems-Intermediate-Scale-Architecture/dp/168173866X/ref=sr_1_1?crid=2K59KWTC2A6IG&dib=eyJ2IjoiMSJ9.FgRSqqg5BPKkIMPcNZN4SDxi0rLadqKNi_gKEwfnfdbx3NVbf-QqRugr0cm0gkqz.IP3MXubP83FTCTx1iDY4mGPq-3PRGX21K_rEV4QrWHU&dib_tag=se&keywords=Quantum+Computer+Systems+Research+for+Noisy+Intermediate-Scale+Quantum+Computers&qid=1711388706&s=books&sprefix=quantum+computer+systems+research+for+noisy+intermediate-scale+quantum+computers%2Cstripbooks-intl-ship%2C337&sr=1-1)
 
 
-
+## Useful Learning Resources and Articles
++ [QuTech Academic](https://www.qutube.nl/)
++ [The Quantum Insider](https://thequantuminsider.com/) 
++ [Google Quantum AI](https://quantumai.google/)
 
 ## Conference
- + HPCA, ASPLOS, ISCA, MICRO, ICCAD, DAC, CC </br>
+ + HPCA, ASPLOS, ISCA, MICRO, ICCAD, DAC, CC, PLDI </br>
  + QCE(Quantum Computing and Engineering) </br>
  + CF(Computing Frontiers)
 
