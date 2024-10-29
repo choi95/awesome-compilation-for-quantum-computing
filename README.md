@@ -6,7 +6,7 @@ This repository focuses on the research and study of quantum compiler systems. I
 ## Contents
 
 + paper
-  + Survey
+  + General Research
   + Unified Compilation Framework for Quantum Control
   + Quantum Intermediate Representation
   + Quantum Program Representation
@@ -29,9 +29,10 @@ This repository focuses on the research and study of quantum compiler systems. I
 
 ## Papers
 
-**Survey**
+**General Research**
 + [Quantum Compiling](https://arxiv.org/abs/2112.00187) - Marco Maronese, Lorenzo Moro, Lorenzo Rocutto, Enrico Prati, 2021
-
++ [Quantum compiling by deep reinforcement learning](https://www.nature.com/articles/s42005-021-00684-3) - Lorenzo Moro, Matteo G. A. Paris, Marcello Restelli, Enrico Prati, Nature, 2021
++ [Programming languages and compiler design for realistic quantum hardware](https://www.nature.com/articles/nature23459) - Frederic T. Chong, Diana Franklin, Margaret Martonosi, Nature, 2017
 
 </br></br>
 
